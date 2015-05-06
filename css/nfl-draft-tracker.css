@@ -1,0 +1,154 @@
+
+
+        .social-icons {
+            height: 38px;
+            width: 38px;
+            border-radius: 50px;
+            float: right;
+            margin-right: 5px;
+            margin-bottom: 0px;
+        }
+        
+        #top-bar-margin {
+            margin-bottom: 20px;
+        }
+        
+        #nav-bar-title {
+            font-family: 'Georgia', serif;
+            font-size: 24px;
+        }
+        
+        #nav-bar-dropdown {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .share-buttons {
+            height: 40px;
+            width: 40px;
+        }
+        
+        li.share-list {
+            display: inline;
+            list-style-type: none;
+            float: right;
+            padding-right: 5px;
+        }
+        
+        img.nav-logo {
+            height: 35px;
+            padding: 10px 25px 0px 10px;
+        }
+        
+        img.footer-logo {
+            margin-bottom: 30px;
+        }
+        
+        .scrbbl-embed {
+            width: 100% !important;
+            height: 745px !important;
+            margin-bottom: 25px !important;
+        }
+        
+        iframe.slideshow {
+            width: 100% !important;
+            height: 1275px;
+        }
+        
+        #ad-space {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        img.main {
+            width: 100%;
+            height: auto;
+        }
+        
+        h1 {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        h3.subhead-panel {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            color: #808080;
+            margin-bottom: 2px;
+        }
+        
+        h3.subhead {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            color: #808080;
+        }
+        
+        blockquote {
+            font-family: Georgia, serif;
+            font-size: 34px;
+            line-height: 39px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        cite {
+            font-family: Georgia, serif;
+            font-size: 16px !important;
+            line-height: 25px;
+            text-align: right;
+        }
+        
+        .section-header {
+            background-color: rgba(255, 119, 51, 1.0);
+            height: 35px;
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-top: 2.5px;
+            margin-bottom: 30px;
+        }
+        
+        .carousel-caption {
+            height: 175px!important;
+        }
+        
+        .credit {
+            font-size: 11px;
+            font-style: italic;
+            text-align: right;
+        }
+        
+        @media screen and (max-width: 750px) {
+            #ad-space {
+                display: none !important;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            #mobile-image {
+                display: none !important;
+            }
+        }
+        
+        hr.panel-hr {
+            border: none;
+            height: 4px;
+            background-color: #808080;
+        }
+        p.anchor-links {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 16px;
+        }
+        #table-top-margin {
+            margin-top: 20px;
+        }
+        p.intro {
+            font-size: 18px;
+        }
