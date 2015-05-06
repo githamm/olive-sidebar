@@ -39,7 +39,14 @@
             font-family: 'Oswald', Arial, sans-serif;
             font-weight: 700;
             font-size: 16px;
+            /* background-color: rgba(0, 140, 186, .1); */
         }
+        /* .accordion .accordion-navigation > a:hover {
+            background-color: rgba(0, 140, 186, .3);
+        }
+        .accordion .accordion-navigation.active > a {
+            background-color: rgba(0, 140, 186, .1);
+        } */
         
         #footer {
             /* border-top: #000 solid 1px; 
@@ -93,27 +100,32 @@
             text-decoration: none;
             color: #fff;
         }
+        
         h2.sub-head {
             font-family: 'Oswald', Arial, sans-serif;
             font-weight: 700;
+            font-size: 26px;
         }
+        
         .split.button {
             font-family: 'Oswald', Arial, sans-serif;
-            font-size: 20px !important;
+            font-size: 20px;
+            margin-top: 20px;
         }
+        
         .f-dropdown {
             font-family: 'Roboto', Arial, sans-serif;
             font-weight: bold;
         }
+        
         .arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    
-    border-top: 8px solid #000;
-    float: right;
-    margin: 10px 0 0 0;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #000;
+            float: right;
+            margin: 10px 0 0 0;
         }
     </style>
 </head>
@@ -173,75 +185,86 @@
         </div>
     </div> -->
 
+
+
     <div class="row">
         <div class="large-12 columns">
-            <a href="#" class="button split button expand">Jump to a section <span data-dropdown="drop"></span></a><br>
-<ul id="drop" class="f-dropdown" data-dropdown-content>
-  <li><a href="http://www.denverpost.com/breakingnews" target="_top">News</a></li>
-  <li><a href="http://www.denverpost.com/sports" target="_top">Sports</a></li>
-  <li><a href="http://www.denverpost.com/business" target="_top">Business</a></li>
-  <li><a href="http://www.denverpost.com/entertainment" target="_top">Entertainment</a></li>
-  <li><a href="http://www.denverpost.com/lifestyles" target="_top">Lifestyles</a></li>
-<li><a href="http://www.denverpost.com/opinion" target="_top">Opinion</a></li>
-<li><a href="http://www.denverpost.com/politics" target="_top">Politics</a></li>
-<li><a href="http://www.denverpost.com/comics" target="_top">Comics</a></li>
-<li><a href="http://tv.denverpost.com/tvlistings/ZCGrid.do?aid=dpo" target="_top">TV Listings</a></li>
-</ul>
-</div>
-</div>
-
-<div class="row">
-    <div class="large-12 columns">
-        <h2 class="sub-head">Latest headlines</h2>
+            <h2 class="sub-head">Latest headlines from DenverPost.com</h2>
+        </div>
     </div>
-</div>
 
-<div class="row">
+    <div class="row">
         <div class="large-12 columns">
             <ul class="accordion" data-accordion>
                 <li class="accordion-navigation">
                     <a href="#panel1a">BREAKING NEWS <div class="arrow-down"></div></a>
                     <!-- "content active" for open accordian on page load -->
-                    <div id="panel1a" class="content">
-                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+                    <div id="panel1a" class="content active">
+                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
 
                         <noscript>
-                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
                         </noscript>
-
-
                     </div>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel2a">LOCAL NEWS <div class="arrow-down"></div></a>
+                    <a href="#panel2a">BUSINESS <div class="arrow-down"></div></a>
                     <div id="panel2a" class="content">
-                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking-local%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-business%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
 
                         <noscript>
-                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking-local%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-business%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
                         </noscript>
                     </div>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel3a">BUSINESS <div class="arrow-down"></div></a>
+                    <a href="#panel3a">SPORTS <div class="arrow-down"></div></a>
                     <div id="panel3a" class="content">
-                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-business%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-sports%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
 
                         <noscript>
-                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-business%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-sports%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
                         </noscript>
                     </div>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel4a">SPORTS <div class="arrow-down"></div></a>
+                    <a href="#panel4a">POLITICS <div class="arrow-down"></div></a>
                     <div id="panel4a" class="content">
-                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-sports%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-politics%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
 
                         <noscript>
-                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-sports%3Fformat%3Dxml&num=5&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-politics%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
                         </noscript>
                     </div>
                 </li>
+                <li class="accordion-navigation">
+                    <a href="#panel5a">OPINION <div class="arrow-down"></div></a>
+                    <div id="panel5a" class="content">
+                        <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-opinion%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+
+                        <noscript>
+                            <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-opinion%3Fformat%3Dxml&num=3&desc=1&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                        </noscript>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <a href="#" class="button split button expand">Jump to a section <span data-dropdown="drop"></span></a>
+            <br>
+            <ul id="drop" class="f-dropdown" data-dropdown-content>
+                <li><a href="http://www.denverpost.com/breakingnews" target="_top">News</a></li>
+                <li><a href="http://www.denverpost.com/sports" target="_top">Sports</a></li>
+                <li><a href="http://www.denverpost.com/business" target="_top">Business</a></li>
+                <li><a href="http://www.denverpost.com/entertainment" target="_top">Entertainment</a></li>
+                <li><a href="http://www.denverpost.com/lifestyles" target="_top">Lifestyles</a></li>
+                <li><a href="http://www.denverpost.com/opinion" target="_top">Opinion</a></li>
+                <li><a href="http://www.denverpost.com/politics" target="_top">Politics</a></li>
+                <li><a href="http://www.denverpost.com/comics" target="_top">Comics</a></li>
+                <li><a href="http://tv.denverpost.com/tvlistings/ZCGrid.do?aid=dpo" target="_top">TV Listings</a></li>
             </ul>
         </div>
     </div>
@@ -251,28 +274,23 @@
         <div class="large-12 columns">
             <div id="footer">
                 <p>Visit <a target="_top" href="http://www.denverpostcustomercare.com">denverpostcustomercare.com</a> for information about home delivery, subscriptions, and much more. All contents Copyright &copy; 2015 The Denver Post or other copyright holders. All rights reserved. This material may not be published, broadcast, rewritten or redistributed for any commercial purpose.</p>
-                    <ul id="footlinks">
-                        <li><a target="_top" title="Advertise" href="http://www.denvernewspaperagency.com/adcenter/">Advertise</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Archives" href="http://www.denverpost.com/archives">Archives</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Contact the Denver Post" href="http://www.denverpost.com/contactus">Contact Us</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Ethics Policy" href="http://www.denverpost.com/ethics">Ethics Policy</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="E-mail Newsletters &amp; Breaking News Alerts" href="http://www.postnewsmarketplace.com/newsletters/editorial/dpo/prefcenter.asp">E-mail Alerts</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Mobile" href="http://m.denverpost.com">Mobile</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Privacy Policy" href="http://www.denverpost.com/privacypolicy">Privacy Policy</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Web Feeds" href="http://www.denverpost.com/webfeeds">Feeds</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" href="http://feeds.denverpost.com/dp-news-breaking-local">RSS</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" class="myyahooButton" href="http://us.rd.yahoo.com/my/atm/DenverPost/News%20Breaking/*http://add.my.yahoo.com/rss?url=http%3A//http://feeds.denverpost.com/dp-news-breaking-local">My Yahoo</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Photo Store" href="http://www.denverpost.com/photostore">Reprints</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Site Map" href="http://www.denverpost.com/sitemap">Site Map</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Subscribe / Customer Care" href="http://www.denverpost.com/subscribe">Home Delivery</a>&nbsp;|&nbsp;</li>
-                        <li><a target="_top" title="Terms of Use" href="http://www.denverpost.com/termsofuse">Terms of Use</a></li>
-                    </ul>
+                <ul id="footlinks">
+                    <li><a target="_top" title="Advertise" href="http://www.denvernewspaperagency.com/adcenter/">Advertise</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Archives" href="http://www.denverpost.com/archives">Archives</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Contact the Denver Post" href="http://www.denverpost.com/contactus">Contact Us</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Customer Care" href="https://www.denverpostcustomercare.com/">Customer Care</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="E-mail Newsletters &amp; Breaking News Alerts" href="http://mail.denverpost.com/dpopreference/dpoprefpage">Newsletters &amp; Alerts</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Web Feeds" href="http://www.denverpost.com/webfeeds">RSS Feeds</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Site Map" href="http://www.denverpost.com/sitemap">Site Map</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Subscribe / Customer Care" href="https://www.denverpostcustomercare.com/dssSubscribe.aspx">Subscribe</a>&nbsp;|&nbsp;</li>
+                    <li><a target="_top" title="Terms of Use" href="http://www.denverpost.com/termsofuse">Terms of Use</a></li>
+                </ul>
             </div>
         </div>
     </div>
     </div>
 
-<div class="row">
+    <div class="row">
         <hr>
         <div class="large-4 large-centered medium-6 medium-centered small-8 small-centered columns">
             <a href="http://denverpost.com/"><img class="footer-logo" src="images/dp-logo-black.png" alt="The Denver Post logo"></a>
