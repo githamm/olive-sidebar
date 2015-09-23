@@ -12,32 +12,32 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
     <style>
-        a.rss-item {
-            font-family: 'Roboto', Arial, sans-serif;
+        /* a.rss-item {
+            font-family: 'Roboto', Arial, sans-serif; 
             font-weight: 700;
             font-size: 14px;
-        }
+        } */
         
         .rss-date {
-            font-family: 'Roboto', Arial, sans-serif;
+            /* font-family: 'Roboto', Arial, sans-serif; */
             font-weight: 300;
             font-style: italic;
             font-size: 11px;
         }
         
         .rss-item {
-            font-family: 'Roboto', Arial, sans-serif;
-            font-weight: 400;
+            /* font-family: 'Roboto', Arial, sans-serif; */
+            font-weight: 600;
             font-size: 13px;
         }
         
         li.rss-item {
             list-style-type: disc;
-        }
+        } 
         
         .accordion .accordion-navigation > a {
             font-family: 'Oswald', Arial, sans-serif;
-            font-weight: 700;
+            font-weight: 500;
             font-size: 16px;
             /* background-color: rgba(0, 140, 186, .1); */
         }
@@ -108,10 +108,15 @@
             font-size: 24px;
         }
         
+        a.button {
+            font-weight: bold;
+        }
+
         .split.button {
             font-family: 'Oswald', Arial, sans-serif;
             font-size: 20px;
             margin-top: 20px;
+            font-weight: 400;
         }
         
         .f-dropdown {
@@ -129,7 +134,7 @@
             margin: 10px 0 0 0;
         }
         img.logo {
-            margin: 0 0 -10px 0;
+            margin: 10px 0 0 0;
         }
         #div_cube2 {
             padding: 25px 0 25px 0;
@@ -139,9 +144,21 @@
 
 <body>
     <div class="row">
-        <div class="small-10 small-centered columns">
+        <div class="large-5 large-centered medium-5 medium-centered small-10 small-centered columns">
             <img class="logo" src="images/AccessCO.png">
-            <hr>
+        </div>
+    </div>    
+
+    <div class="row">
+        <div class="large-12 medium-12 small-12 columns">
+        <hr>
+            <ul class="button-group even-5">
+              <li><a href="http://www.denverpost.com/comics" target="blank" class="button">Comics</a></li>
+              <li><a href="http://www.denverpost.com/arcade" target="_blank" class="button">Games</a></li>
+              <li><a href="http://www.denverpost.com/horoscopes" target="_blank" class="button">Horoscopes</a></li>
+              <li><a href="http://calendar.denverpost.com/movies" target="_blank" class="button">Movies</a></li>
+              <li><a href="http://tv.denverpost.com/tvlistings/ZCGrid.do?aid=dpo" target="_blank" class="button">TV</a></li>
+            </ul>
         </div>
     </div>
 
