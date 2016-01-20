@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Denver Post E-Edition</title>
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/nfl-draft-tracker.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .rss-date {
+            /* font-family: 'Roboto', Arial, sans-serif; */
+            font-weight: 300;
+            font-style: italic;
+            font-size: 11px;
+        }
+        
+        .rss-item {
+            /* font-family: 'Roboto', Arial, sans-serif; */
+            font-weight: 600;
+            font-size: 13px;
+        }
+        
+        li.rss-item {
+            list-style-type: disc;
+        } 
+        
+        .accordion .accordion-navigation > a {
+            font-family: 'Oswald', Arial, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            /* background-color: rgba(0, 140, 186, .1); */
+        }
+        /* .accordion .accordion-navigation > a:hover {
+            background-color: rgba(0, 140, 186, .3);
+        }
+        .accordion .accordion-navigation.active > a {
+            background-color: rgba(0, 140, 186, .1);
+        } */
+        
+        #footer {
+            /* border-top: #000 solid 1px; 
+            margin: 25px 0 0 0; */
+            margin-bottom: 15px;
+        }
+        
+        #footer p {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 13px;
+            line-height: 16px;
+            font-variant: normal;
+            font-weight: 300;
+            color: #222;
+            margin: 0 0 0 0;
+            padding: 5px 0 0 0;
+        }
+        
+        ul#footlinks {
+            background-color: #008CBA;
+            text-align: center;
+            margin: 15px 0 0 0;
+            padding: 15px 15px;
+            display: block;
+            overflow: hidden;
+            list-style-type: none;
+            line-height: 17px;
+        }
+        
+        ul#footlinks li {
+            display: inline-block;
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 12px;
+            line-height: 12px;
+            font-variant: normal;
+            font-weight: 300;
+            color: #fff;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        
+        ul#footlinks li a:link {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        ul#footlinks li a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+        
+        ul#footlinks li a:visited {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        h2.sub-head {
+            font-family: 'Oswald', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        a.button {
+            font-weight: bold;
+        }
+
+        .split.button {
+            font-family: 'Oswald', Arial, sans-serif;
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+        
+        .f-dropdown {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #000;
+            float: right;
+            margin: 10px 0 0 0;
+        }
+        img.logo {
+            margin: 10px 0 0 0;
+        }
+        #div_cube2 {
+            padding: 25px 0 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+        	<h2 class="sub-head">More from <a href="http://denverpost.com/" target="_top">DenverPost.com</a></h2>
+            <a href="#" class="button split button expand">Jump to a section <span data-dropdown="drop"></span></a>
+            <br>
+            <ul id="drop" class="f-dropdown" data-dropdown-content>
+                <li><a href="http://www.denverpost.com/comics" target="blank" class="button" style="color: #fff;">Comics</a></li>
+		         <li><a href="http://www.denverpost.com/arcade" target="_blank" class="button" style="color: #fff;">Games</a></li>
+		         <li><a href="http://www.denverpost.com/horoscopes" target="_blank" class="button" style="color: #fff;">Horoscopes</a></li>
+		         <li><a href="http://calendar.denverpost.com/movies" target="_blank" class="button" style="color: #fff;">Movies</a></li>
+		         <li><a href="http://tv.denverpost.com/tvlistings/ZCGrid.do?aid=dpo" target="_blank" class="button" style="color: #fff;">TV</a></li>
+		         <li><a href="http://www.denverpost.com/breakingnews" target="_top">News</a></li>
+                <li><a href="http://www.denverpost.com/sports" target="_top">Sports</a></li>
+                <li><a href="http://www.denverpost.com/business" target="_top">Business</a></li>
+                <li><a href="http://www.denverpost.com/politics" target="_top">Politics</a></li>
+                <li><a href="http://www.denverpost.com/entertainment" target="_top">Entertainment</a></li>
+                <li><a href="http://www.denverpost.com/lifestyles" target="_top">Lifestyles</a></li>
+                <li><a href="http://www.denverpost.com/opinion" target="_top">Opinion</a></li>
+                <li><a href="http://dptv.denverpost.com/" target="_top">DPTV</a></li>
+                <li><a href="http://yourhub.denverpost.com/denver-metro-crime-blotter-roundup/" target="_top">Crime Blotter</a></li>
+                <li><a href="http://www.thecannabist.co/" target="_top">The Cannabist</a></li>
+                <li><a href="http://www.heyreverb.com/" target="_top">Reverb</a></li>
+                <li><a href="http://digital.olivesoftware.com/olive/odn/denverpost/default.aspx" target="_top">Denver Post Archives</a></li>  
+            </ul>
+            <p style="font-weight: bold; margin-bottom: 5px;">Breaking news headlines:</p>
+            <script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=4&desc=0&date=y&targ=y&utf=y" charset="UTF-8" type="text/javascript"></script>
+
+                <noscript>
+                    <a href="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.denverpost.com%2Fdp-news-breaking%3Fformat%3Dxml&num=4&desc=0&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                </noscript>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
