@@ -12,6 +12,9 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
     <style>
+    	body {
+    		width: 332px;
+    	}
         /* a.rss-item {
             font-family: 'Roboto', Arial, sans-serif; 
             font-weight: 700;
@@ -51,6 +54,7 @@
         #footer {
             /* border-top: #000 solid 1px; 
             margin: 25px 0 0 0; */
+            margin-bottom: 15px;
         }
         
         #footer p {
@@ -144,21 +148,22 @@
 
 <body>
     <div class="row">
-        <div class="large-5 large-centered medium-5 medium-centered small-10 small-centered columns">
-            <img class="logo" src="images/AccessCO.png">
-        </div>
-    </div>    
-
-    <div class="row">
         <div class="large-12 medium-12 small-12 columns">
-        <hr>
-            <ul class="button-group even-5">
+            <!-- <ul class="button-group even-5">
               <li><a href="http://www.denverpost.com/comics" target="blank" class="button">Comics</a></li>
               <li><a href="http://www.denverpost.com/arcade" target="_blank" class="button">Games</a></li>
               <li><a href="http://www.denverpost.com/horoscopes" target="_blank" class="button">Horoscopes</a></li>
               <li><a href="http://calendar.denverpost.com/movies" target="_blank" class="button">Movies</a></li>
               <li><a href="http://tv.denverpost.com/tvlistings/ZCGrid.do?aid=dpo" target="_blank" class="button">TV</a></li>
-            </ul>
+            </ul> -->
+            <h2 class="sub-head">Jump to:</h2>
+            	<ul>
+            		<li class="rss-item"><a href="http://www.denverpost.com/comics">Comics</a></li>
+            		<li class="rss-item"><a href="http://www.denverpost.com/arcade">Games</a></li>
+            		<li class="rss-item"><a href="http://www.denverpost.com/horoscopes">Horoscopes</a></li>
+            		<li class="rss-item"><a href="http://www.denverpost.com/movies">Movies</a></li>
+            		<li class="rss-item"><a href="http://www.denverpost.com/tvlistings">TV</a></li>
+            	</ul>
         </div>
     </div>
 
@@ -280,34 +285,6 @@
             </div>
         </div>
     </div>
-    </div>
-
-    <div class="row">
-        <div class="large-4 large-centered medium-6 medium-centered small-12 small-centered columns">
-            <!-- <a href="http://denverpost.com/"><img class="footer-logo" src="images/dp-logo-black.png" alt="The Denver Post logo"></a> -->
-            <!-- begin Cube 2 Ad Tag -->
-
-            <script type='text/javascript'>
-            (function() {
-            var useSSL = 'https:' == document.location.protocol;
-            var src = (useSSL ? 'https:' : 'http:') +
-            '//www.googletagservices.com/tag/js/gpt.js';
-            document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-            })();
-            </script>
-            <div id='div_cube2'>
-            <script type='text/javascript'>
-            googletag.defineSlot('/8013/denverpost.com/News', [300,250], 'div_cube2').setTargeting('kv', 'e-edition').setTargeting('POS', 'Cube2_RRail_mid').addService
-
-            (googletag.pubads());
-            googletag.pubads().enableSyncRendering();
-            googletag.enableServices();
-            googletag.display('div_cube2');
-            </script>
-            </div>
-
-    <!-- end Cube 2 Ad Tag -->
-        </div>
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
